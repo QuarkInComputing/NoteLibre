@@ -1,3 +1,8 @@
+body {
+    background-color: #444444;
+    color: #FFFFFF
+}
+
 .mainframe {
     position: relative;
     display: flex;
@@ -5,16 +10,35 @@
 
 .sidecolumn {
     width: 15%;
-    background-color: red;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.sidecolumn ul {
+    padding: 0;
+}
+
+.sidecolumn ul li {
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+.sidecolumn ul li:before {
+    content: "┃"
 }
 
 .content {
     width: 70%;
-    background-color: green;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 15px;
+    margin: 5px;
 }
 
 .songinfo {
     width: 15%;
-    background-color: blue;
+    background-color: rgba(255, 255, 255, 0.25);
     text-align: center;
+    border-radius: 15px;
+    margin: 5px;
 }
